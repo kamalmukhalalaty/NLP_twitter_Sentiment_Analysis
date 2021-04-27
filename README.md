@@ -11,11 +11,11 @@ In this repository I showcase a notebook where I built a NLP tweet sentiment ana
     - SVM
     - KNN
     - XGBoost W/Logistic objective
-  -TF-IDF Embedding W/ Logistic Regression & Random Forest showed some promise so I conducted hyperparameter tuning which yeilded that Logistic Regresion in default setting has the highest validation accuracy of aproximatley 86%.
+  -**TF-IDF Embedding W/ Logistic Regression & Random Forest showed some promise so I conducted hyperparameter tuning which yeilded that Logistic Regresion in default setting has the highest validation accuracy of aproximatley 86%.**
   
-- The previously defined best classifer is then applied on the entirety of the of US_Election_2020.csv dataset containing labeled 2020 US election relevant tweets and its performance is not as good at 58%. This is primarily due to computational contraints and dimensionality reduction requierments, the top 200 features from the generic tweets were used to train the model, these features are not as informative when in comes to dictating sentiment in the US election tweets as they are insufficiently diverse and unable to effectivly explain the relativly specific feature to sentiment mappings in the election relevant tweets.
+- The previously defined **best classifer** is then applied on the entirety of the of US_Election_2020.csv dataset containing labeled 2020 US election relevant tweets and its **performance is sub optimal at 58%**. This is primarily due to computational contraints and dimensionality reduction requierments, the top 200 features from the generic tweets were used to train the model and only a randomly sampled eigth of the total dataset index was used, these features are not as informative when it comes to dictating sentiment in the US election tweets as they are insufficiently diverse and unable to effectivly explain the feature to sentiment mappings in the election relevant tweets.
 
-- A Multi-Class Classification model is created using the same steps as above to try and learn feature to negative sentiment reason mappings.
+- A Multi-Class Classification model is then created using the same steps as above to try and learn feature to negative sentiment reason mappings on the 2020 US election relevant tweets and its. This _____________________________________________________
 
 - Finnaly an MLP-3 is Built using Keras and TF in an attempt to build an even more compatant classifier however the va;idation accuracy is only 1% higher so the idea is scrapped. 
 
