@@ -25,4 +25,7 @@ This was my first portfolio worthy project within the realm of NLP, model perfor
 - Using techniques such as word2vec or Glovo word embeddings to allow the model to better put sequence of words into context and improve prediction.
   - This will be the goal in my next NLP Project.
 
+If you face issues viewing the notebook please follow the steps listed here
+https://github.com/iurisegtovich/PyTherm-applied-thermodynamics/issues/11
+
 
