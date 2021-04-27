@@ -1,4 +1,4 @@
-# NLP_twitter_Sentiment_Analysis
+# NLP twitter Sentiment Analysis
 
 In this repository I showcase a notebook where I built a NLP tweet sentiment analysis classifier. 
 
