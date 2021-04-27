@@ -1,0 +1,7 @@
+Files needed to run code are too large for GitHub so I have made them available through this this google drive link: [https://drive.google.com/drive/folders/1ZFX2nkS13m_UEz3qLKvt3XptzlgbCjzn?usp=sharing]()
+
+The linked folder contains:
+- sentiment_analysis.csv =-=-=-=-= File containing labeled raw generic tweets
+- US_Elections_2020.csv =-=-=-=-= File containing labeled raw US election relevant tweets
+- Backup.txt =-=-=-=-= File containing the processeed generic tweets where processing involved:
+  - stemming, lemmatization, removal of HTML tags, @'s, hashtags and the  removal of stopwords
