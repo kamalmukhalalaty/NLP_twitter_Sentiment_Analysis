@@ -32,4 +32,12 @@ This was my first portfolio worthy project within the realm of NLP, model perfor
 If you face issues viewing the notebook please follow the steps listed here
 https://github.com/iurisegtovich/PyTherm-applied-thermodynamics/issues/11
 
+Generic Tweets Word Cloud: 
+
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" width="400" height="250">
+
+US Election Relevant tweets Word Cloud:
+
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/US%20Election%202020%20Word%20Cloud.png" width="400" height="250">
+
 
